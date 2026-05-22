@@ -1,0 +1,84 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f0f8f9; /* light teal */
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #006d77; /* deep teal */
+  padding: 15px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #edf6f9; /* soft light blue */
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #83c5be, #006d77); /* teal gradient */
+  color: #fff;
+}
+
+.profile {
+  background-color: #ecf0f1; /* pale blue */
+  padding: 40px;
+  text-align: center;
+}
+
+.featured {
+  background-color: #83c5be; /* medium teal */
+  padding: 40px;
+  text-align: center;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.clients {
+  background-color: #006d77; /* deep teal */
+  color: #edf6f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.skills {
+  background-color: #e0fbfc; /* very light blue */
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #006d77;
+  color: #edf6f9;
+  padding: 15px;
+}
+
+button {
+  background-color: #006d77;
+  color: #edf6f9;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #83c5be; /* lighter teal on hover */
+}
